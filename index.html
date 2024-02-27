@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap (2).css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div  class="container">
+    <h1 class="text-center mt-2 text-white">Love Calculator💖</h1>
+    <div class="row mt-5 container">
+        <div class="container alert alert-danger p-2 " id="errorMessage" style="display: none;">Spaces cannot be empty</div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="img/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" style="height: 100px;" class="img-fluid rounded-5" alt=""><br>
+            <label for="Player1" class="text-white">Player1</label><br>
+            <input type="text" class="form-control" id="input1">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="img/lovepik-female-avatar-elements-of-womens-day-png-image_401901116_wh1200.png" style="height: 100px;" class="img-fluid rounded-5" alt=""><br>
+            <label for="Player2" class="text-white">Player2</label><br>
+            <input type="text" class="form-control" id="input2">
+        </div>
+        <center><button class="btn btn-danger p-2 my-5 w-50 mx-5" onclick="calc()" >Calculate compatibility</button></center>
+        <div id="show" class="mb-5"></div>
+    </div>
+</div>
+
+<video autoplay loop muted id="background-video" src="video/3125505715.mp4" ></video>
+
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap (2).js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
