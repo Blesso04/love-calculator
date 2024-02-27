@@ -1,0 +1,46 @@
+#background-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+input:focus{
+    box-shadow: none ! important;
+}
+@media screen and (max-width:767px) {
+    #input1{
+        margin-bottom: 20px;
+    }
+}
+/* #show{
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+    font-size: 30px;
+} */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background : palevioletred;
+}
+::-webkit-scrollbar-thumb{
+    background: pink;
+}
+#imageContainer {
+    position: relative;
+    width: 100%;
+}
+#textOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+}
